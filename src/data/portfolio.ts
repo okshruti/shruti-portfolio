@@ -4,11 +4,10 @@ export const profile = {
   phone: "+91 7030403060",
   phoneHref: "tel:+917030403060",
   email: "okkshrutii@gmail.com",
-  // TODO: add real URLs. Left empty on purpose so no invented links are shown.
-  github: "",
-  linkedin: "",
-  // Add the resume PDF later (e.g. "/downloads/Shruti-Sharma-Resume.pdf"). Empty = button shows "coming soon".
-  resume: "",
+  github: "https://github.com/okshruti",
+  linkedin: "https://www.linkedin.com/in/shrutisharmaa26/",
+  // Resume PDF is stored in the public folder.
+  resume: "/Shruti-Sharma-Resume.pdf",
 };
 
 export const summary =
