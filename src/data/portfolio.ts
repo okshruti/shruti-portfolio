@@ -64,11 +64,23 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    no: "01", name: "Studious", tagline: "Adaptive Learning Platform",
-    description: "A personalized learning platform designed to adapt the learning experience based on students' needs.",
-    tech: ["React.js", "TypeScript", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "REST APIs", "JWT"],
-    highlights: ["Full-stack application development.", "Authentication using JWT.", "Reusable TypeScript components.", "Frontend and backend API integration.", "Adaptive learning experience."],
-    link: "", github: "", image: "", problem: "", architecture: "", contribution: "", challenges: "", mock: "learning",
+    no: "01", name: "Studious", tagline: "AI-Powered Adaptive Learning Platform",
+    description: "An adaptive learning platform that turns learner goals, lesson activity and quiz performance into personalized study paths, focused practice and actionable progress insights.",
+    tech: ["React", "TypeScript", "TanStack Start", "Tailwind CSS", "Supabase / Lovable Cloud", "AI SDK", "Three.js", "React Three Fiber"],
+    highlights: [
+      "Personalized dashboards and study plans based on learner goals and progress.",
+      "Structured lessons with learning objectives, examples, diagrams and completion tracking.",
+      "Adaptive topic quizzes with explanations, mastery tracking and difficulty adjustments.",
+      "Context-aware AI tutor for lessons, practice, revision and quiz-mistake discussions.",
+      "Learning analytics for quiz accuracy, study time, topic mastery and goals.",
+      "Authentication, protected student routes and persistent learning progress.",
+    ],
+    link: "", github: "", image: "",
+    problem: "Students often rely on disconnected resources and generic study plans that do not adapt to what they understand. Studious brings structured lessons, adaptive practice and learning guidance into one workspace.",
+    architecture: "React and TypeScript with TanStack Start; Supabase and Lovable Cloud for authentication and application data; Lovable AI integration for the tutor; and Three.js / React Three Fiber for the interactive landing-page experience.",
+    contribution: "Designed and developed the MVP across the learner experience, personalized dashboard, lesson flow, adaptive quiz system, AI tutor integration and progress analytics.",
+    challenges: "Keeping quiz scoring on the server, supplying lesson- and performance-aware context to the AI tutor, and deriving transparent learning insights from recorded student activity.",
+    mock: "learning",
   },
   {
     no: "02", name: "Voidr", tagline: "Clothing E-commerce Store",
